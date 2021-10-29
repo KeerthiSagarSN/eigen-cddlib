@@ -11,7 +11,7 @@ sudo apt-get install libcdd-dev
 Then, install ``eigen-cddlib`` following the standard CMake procedure:
 
 ```sh
-git clone --recursive https://github.com/vsamy/eigen-cddlib
+git clone --recursive https://github.com/philip-long/eigen-cddlib
 cd eigen-cddlib
 mkdir build
 cd build
