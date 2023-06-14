@@ -19,7 +19,7 @@ cmake .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFX=<your_path>
 make -j4
 make install
 ```
-
+<your_path>- refers to the build folder created in the workspace
 If cdd has not been installed in the default path, CMake may not find it. In this case, add the path as a HINTS in ``find_path`` and/or ``find_library``.
 
 ### Testing
