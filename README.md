@@ -15,7 +15,7 @@ git clone --recursive https://github.com/philip-long/eigen-cddlib
 cd eigen-cddlib
 mkdir build
 cd build
-cmake .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFX=<your_path>
+cmake .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFX='your_path_ws/src/eigen-cddlib/build/'
 make -j4
 sudo make install
 ```
